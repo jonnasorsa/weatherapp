@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>Loppuharjoitus Jonna Sorsa</title>
+    <meta charset="UTF-8" />
+    <link
+      rel="shortcut icon"
+      type="image/x-icon"
+      href="https://scontent.xx.fbcdn.net/v/t1.15752-0/p206x206/173433437_493260385148316_5023284459752068165_n.png?_nc_cat=106&ccb=1-3&_nc_sid=58c789&_nc_ohc=NYnfqCWiyfAAX-iB_oc&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&tp=30&oh=3fe25318b71a2614485716b578ff45c9&oe=609D768F"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Navbar -koodi: -->
+    <nav class="navbar navbar-dark navbar-custom navbar-expand-sm">
+      <img
+        class="logo"
+        src="https://scontent.xx.fbcdn.net/v/t1.15752-0/p206x206/173433437_493260385148316_5023284459752068165_n.png?_nc_cat=106&ccb=1-3&_nc_sid=58c789&_nc_ohc=NYnfqCWiyfAAX-iB_oc&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&tp=30&oh=3fe25318b71a2614485716b578ff45c9&oe=609D768F"
+      />
+      <div class="container-fluid">
+        <a class="navbar-brand" href="/">Etusivu</a>
+        <ul class="navbar-nav me-auto my-2">
+          <li class="nav-item">
+            <a class="nav-link" href="/tab1.html">Viimeisimmät mittatulokset</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/tab2.html">Lämpötila</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/tab3.html">Sääkirjasto</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!-- Sivun sisältö alkaa tästä: -->
+    <div class="container">
+      <div class="row">
+        <div class="col-sm">
+          <h1>Tervetuloa!</h1>
+          <h3>Mikä on homman nimi?</h3>
+          <h>
+            <br />
+            Tällä sivustolla näet eri säädatojen mittatuloksia kootusti.
+            Yläpalkin kautta voit navigoida eri välilehtien välillä löytääksesi
+            haluamasi mittatulokset. <br /><br />
+            Välilehdellä "Viimeisimmät mittatulokset" näet 50 viimeisintä
+            lajittelematonta säädataa. <br />
+            Välilehdellä "Lämpötila" voit hakea lämpötilamittaukset haluamaltasi
+            aikaväliltä. <br />
+            Välilehdeltä "Sääkirjasto" voit hakea valitsemaasi säädataa
+            haluamaltasi aikaväliltä.
+            <br /><br />
+            Nautinnollisia säähetkiä koko tuotantotiimin* puolesta!
+          </h>
+        </div>
+      </div>
+      <img
+        id="foto"
+        src="https://scontent.xx.fbcdn.net/v/t1.15752-0/p206x206/173433437_493260385148316_5023284459752068165_n.png?_nc_cat=106&ccb=1-3&_nc_sid=58c789&_nc_ohc=NYnfqCWiyfAAX-iB_oc&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&tp=30&oh=3fe25318b71a2614485716b578ff45c9&oe=609D768F"
+        class="img-fluid"
+        alt="max-width: 100% height:auto"
+      />
+      <p>*tuotantotiimi koostuu yhdestä (1) ihmisestä.</p>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-adapter-date-fns@next/dist/chartjs-adapter-date-fns.bundle.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
